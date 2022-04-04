@@ -1,15 +1,14 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/MasterPage.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Slice.Admin.Login" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <!DOCTYPE html>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="Slice.Admin.login" %>
+
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
     <link href="Content/ContentBox.css" rel="stylesheet"/>
 </head>
-<body style="background-image:url('Images/slider-img2.jpg'); background-repeat:no-repeat;background-size:1800px;">   
+<body style="background-image:url('Images/slider-img2.jpg'); background-repeat:no-repeat;background-size:1800px;">
+    <form id="form1" runat="server">
         <br /><br /><br /><br /><br /><br /><br />
         <center> 
         <div class="content">            
@@ -18,11 +17,11 @@
             <asp:TextBox runat="server" id="UserNameTxt"></asp:TextBox><br /><br />
             Password: <br />
             <asp:TextBox runat="server" id="PassText"></asp:TextBox><br /><br />                       
-            <asp:Button runat="server" OnClick="LogInFunc" Text="Log-In"></asp:Button> <br /><br />
+            <asp:Button runat="server" Text="Log-In"></asp:Button> <br /><br />
             <hr /><a href="Register.aspx">Create Account</a> <hr />
             <br />
         </div>
         </center>
+    </form>
 </body>
 </html>
-</asp:Content>

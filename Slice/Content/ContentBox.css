@@ -9,32 +9,8 @@ a {
 }
 
 .content {
-    margin: auto;
     background-color: white;
-    width: 80%;
-    padding: 10px;
+    width: 50%;
     border: ridge 1px gray;
-    box-shadow: 5px 5px 5px;
-}
-
-@media only screen and (min-width:1200px) {
-    body {
-        font-size: 20px;
-    }
-
-    .content {
-        width: 300px;
-        height: 300px;
-    }
-}
-
-@media only screen and (min-width:200px) {
-    body {
-        font-size: 20px;
-    }
-
-    .content {
-        width: 400px;
-        height: 400px;
-    }
+    box-shadow: 2.5px 2.5px 2.5px;
 }

@@ -9,18 +9,19 @@ using System.Web.UI.WebControls;
 
 namespace Slice.Admin
 {
-    public partial class Register : System.Web.UI.Page
+    public partial class register : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
+
         protected void RegisterFunc(object sender, EventArgs e)
         {
             string str = "";
             try
             {
-                str = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Mr\\source\\repos\\FreeCart\\FreeCart\\App_Data\\MainData.mdf;Integrated Security=True";
+                str = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Mr\\source\\repos\\Slice\\Slice\\App_Data\\MainData.mdf;Integrated Security=True";
                 SqlConnection cn = new SqlConnection(str);
                 SqlCommand cmd = new SqlCommand("CustSP", cn);
                 cmd.CommandType = CommandType.StoredProcedure;

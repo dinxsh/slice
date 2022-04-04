@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Slice.User
 {
-    public partial class login : System.Web.UI.Page
+    public partial class Pdf_Reader : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

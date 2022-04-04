@@ -117,12 +117,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admin\Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="Admin\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Admin\Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
+    <Compile Include="Admin\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
@@ -131,12 +131,12 @@
     <Compile Include="Admin\MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
-    <Compile Include="Admin\Register.aspx.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
+    <Compile Include="Admin\register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Admin\Register.aspx.designer.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
+    <Compile Include="Admin\register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -146,12 +146,26 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User\login.aspx.cs">
-      <DependentUpon>login.aspx</DependentUpon>
+    <Compile Include="User\Bookmarks.aspx.cs">
+      <DependentUpon>Bookmarks.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="User\login.aspx.designer.cs">
-      <DependentUpon>login.aspx</DependentUpon>
+    <Compile Include="User\Bookmarks.aspx.designer.cs">
+      <DependentUpon>Bookmarks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Library.aspx.cs">
+      <DependentUpon>Library.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Library.aspx.designer.cs">
+      <DependentUpon>Library.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
@@ -160,17 +174,28 @@
     <Compile Include="User\MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
-    <Compile Include="User\Register.aspx.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
+    <Compile Include="User\Pdf-Reader.aspx.cs">
+      <DependentUpon>Pdf-Reader.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="User\Register.aspx.designer.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
+    <Compile Include="User\Pdf-Reader.aspx.designer.cs">
+      <DependentUpon>Pdf-Reader.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Trending.aspx.cs">
+      <DependentUpon>Trending.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Trending.aspx.designer.cs">
+      <DependentUpon>Trending.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Admin\Login.aspx" />
-    <Content Include="Admin\Register.aspx" />
+    <Content Include="Admin\login.aspx" />
+    <Content Include="Admin\register.aspx" />
+    <Content Include="App_Data\MainData.mdf" />
+    <Content Include="App_Data\MainData_log.ldf">
+      <DependentUpon>MainData.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -195,8 +220,11 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="User\login.aspx" />
-    <Content Include="User\Register.aspx" />
+    <Content Include="User\Bookmarks.aspx" />
+    <Content Include="User\Home.aspx" />
+    <Content Include="User\Library.aspx" />
+    <Content Include="User\Pdf-Reader.aspx" />
+    <Content Include="User\Trending.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -214,7 +242,6 @@
     <Content Include="User\MasterPage.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
