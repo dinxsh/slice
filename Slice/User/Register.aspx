@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/MasterPage.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="Slice.Admin.Register" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/User/MasterPage.Master" AutoEventWireup="true" CodeBehind="Register.aspx.cs" Inherits="Slice.User.Register" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<html xmlns="http://www.w3.org/1999/xhtml">
+    <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Freecart - Register</title>
     <link href="Content/ContentBox.css" rel="stylesheet"/>
@@ -28,7 +28,8 @@
             <p>By Registering you accept our <a href="terms_policies">terms and policies</a></p>
             </center>
         </div>
-        </center>    
+        </center>
 </body>
 </html>
+
 </asp:Content>

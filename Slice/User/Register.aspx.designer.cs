@@ -7,12 +7,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Slice.Admin
+namespace Slice.User
 {
 
 
-    public partial class Login
+    public partial class Register
     {
+
+        /// <summary>
+        /// NameTxt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox NameTxt;
 
         /// <summary>
         /// UserNameTxt control.
@@ -22,6 +31,24 @@ namespace Slice.Admin
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox UserNameTxt;
+
+        /// <summary>
+        /// NumTxt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox NumTxt;
+
+        /// <summary>
+        /// EmailTxt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox EmailTxt;
 
         /// <summary>
         /// PassText control.
