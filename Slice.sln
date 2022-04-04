@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slice", "Slice\Slice.csproj", "{9DB4DA03-7786-43CE-B8D1-FA4D9168D218}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DB4DA03-7786-43CE-B8D1-FA4D9168D218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB4DA03-7786-43CE-B8D1-FA4D9168D218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB4DA03-7786-43CE-B8D1-FA4D9168D218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB4DA03-7786-43CE-B8D1-FA4D9168D218}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF88303A-6FBD-4E90-8F69-08B1BD21B499}
+	EndGlobalSection
+EndGlobal
