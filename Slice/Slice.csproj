@@ -146,12 +146,26 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User\Blog.aspx.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Blog.aspx.designer.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+    </Compile>
     <Compile Include="User\Bookmarks.aspx.cs">
       <DependentUpon>Bookmarks.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="User\Bookmarks.aspx.designer.cs">
       <DependentUpon>Bookmarks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\BookSuggest.aspx.cs">
+      <DependentUpon>BookSuggest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\BookSuggest.aspx.designer.cs">
+      <DependentUpon>BookSuggest.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
@@ -181,6 +195,13 @@
     <Compile Include="User\Pdf-Reader.aspx.designer.cs">
       <DependentUpon>Pdf-Reader.aspx</DependentUpon>
     </Compile>
+    <Compile Include="User\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
     <Compile Include="User\Trending.aspx.cs">
       <DependentUpon>Trending.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -201,6 +222,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\ContentBox.css" />
+    <Content Include="Content\Navbar.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -220,10 +242,14 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\Trending.js" />
+    <Content Include="User\Blog.aspx" />
     <Content Include="User\Bookmarks.aspx" />
+    <Content Include="User\BookSuggest.aspx" />
     <Content Include="User\Home.aspx" />
     <Content Include="User\Library.aspx" />
     <Content Include="User\Pdf-Reader.aspx" />
+    <Content Include="User\Register.aspx" />
     <Content Include="User\Trending.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

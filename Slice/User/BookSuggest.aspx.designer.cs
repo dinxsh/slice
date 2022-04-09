@@ -11,7 +11,7 @@ namespace Slice.User
 {
 
 
-    public partial class Home
+    public partial class BookSuggest
     {
     }
 }

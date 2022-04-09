@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Slice.Admin
+namespace Slice.User
 {
 
 
-    public partial class register
+    public partial class Register
     {
 
         /// <summary>

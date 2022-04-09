@@ -11,7 +11,11 @@ namespace Slice.User
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["logged_in"] == null)
+            {
+                Response.Redirect("Register.aspx");
+            }
         }
+
     }
 }
