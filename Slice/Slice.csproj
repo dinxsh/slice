@@ -181,6 +181,13 @@
     <Compile Include="User\BookSuggest.aspx.designer.cs">
       <DependentUpon>BookSuggest.aspx</DependentUpon>
     </Compile>
+    <Compile Include="User\ISBN.aspx.cs">
+      <DependentUpon>ISBN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\ISBN.aspx.designer.cs">
+      <DependentUpon>ISBN.aspx</DependentUpon>
+    </Compile>
     <Compile Include="User\Library.aspx.cs">
       <DependentUpon>Library.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -241,6 +248,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\ScrollToTop.css" />
     <Content Include="User\Dictionary.aspx" />
     <Content Include="User\Home.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -262,6 +270,7 @@
     <Content Include="User\Blog.aspx" />
     <Content Include="User\Bookmarks.aspx" />
     <Content Include="User\BookSuggest.aspx" />
+    <Content Include="User\ISBN.aspx" />
     <Content Include="User\Library.aspx" />
     <Content Include="User\Pdf-Reader.aspx" />
     <Content Include="User\Register.aspx" />
