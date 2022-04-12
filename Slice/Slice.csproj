@@ -145,6 +145,20 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="User\Dictionary.aspx.cs">
+      <DependentUpon>Dictionary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Dictionary.aspx.designer.cs">
+      <DependentUpon>Dictionary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User\Blog.aspx.cs">
       <DependentUpon>Blog.aspx</DependentUpon>
@@ -166,13 +180,6 @@
     </Compile>
     <Compile Include="User\BookSuggest.aspx.designer.cs">
       <DependentUpon>BookSuggest.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="User\Home.aspx.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User\Home.aspx.designer.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\Library.aspx.cs">
       <DependentUpon>Library.aspx</DependentUpon>
@@ -202,6 +209,13 @@
     <Compile Include="User\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="User\Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
     <Compile Include="User\Trending.aspx.cs">
       <DependentUpon>Trending.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -227,6 +241,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="User\Dictionary.aspx" />
+    <Content Include="User\Home.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Admin\MasterPage.Master" />
@@ -246,10 +262,10 @@
     <Content Include="User\Blog.aspx" />
     <Content Include="User\Bookmarks.aspx" />
     <Content Include="User\BookSuggest.aspx" />
-    <Content Include="User\Home.aspx" />
     <Content Include="User\Library.aspx" />
     <Content Include="User\Pdf-Reader.aspx" />
     <Content Include="User\Register.aspx" />
+    <Content Include="User\Search.aspx" />
     <Content Include="User\Trending.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

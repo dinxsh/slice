@@ -8,9 +8,9 @@
 //------------------------------------------------------------------------------
 
 
-namespace Slice
+namespace Slice.User
 {
-    public partial class Home
+    public partial class Search
     {
     }
 }
