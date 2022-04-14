@@ -16,7 +16,7 @@ namespace Slice.User
         }
 
         protected void RegisterFunc(object sender, EventArgs e)
-        {            
+            {            
             try
             {
                 String str;

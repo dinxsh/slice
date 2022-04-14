@@ -36,25 +36,25 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 		
-<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">    
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">    
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>      
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>      
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>              
     </ol>    
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="../images/Book-Img6.jpg" alt="First slide" style="max-height:100vh;">
+            <img class="d-block w-100" src="../images/Slice_Temp1.png" alt="First slide" style="max-height:100vh;">
             <div class="carousel-caption d-none d-md-block">
                 <center>
-                <button style="margin-bottom:40px;font-size:20px;" type="button" class="btn btn-info">View Page</button>                
+                <h2>A</h2>
+                <a href="Search.aspx" style="margin-bottom:40px;font-size:20px;" type="button" class="btn btn-info">View Page</a>                
                 </center>
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="../images/Book-Img2.jpg" alt="Second slide"  style="max-height:100vh;">                        
+            <img class="d-block w-100" src="../images/Slice_Temp3.png" alt="Second slide"  style="max-height:100vh;">                        
             <div class="carousel-caption d-none d-md-block">
                 <center>
                 <button style="margin-bottom:40px;font-size:20px;" type="button" class="btn btn-info">View Page</button>                

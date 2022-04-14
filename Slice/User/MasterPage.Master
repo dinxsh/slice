@@ -924,7 +924,7 @@ footer#footer-4-cols div#copyright-information div#social-buttons img {
 				<div class="col-12">
 					<nav class="navbar navbar-expand-md navbar-light">
 					
-						<h2>Slice</h2>
+						<a style="font-size:22px;color:black;" href="Home.aspx">Slice</a>
 						
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
