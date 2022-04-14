@@ -16,7 +16,8 @@ namespace Slice.User
         }
 
         protected void RegisterFunc(object sender, EventArgs e)
-            {            
+            {
+            int id = 0;
             try
             {
                 String str;
@@ -30,11 +31,12 @@ namespace Slice.User
                 cmd.Parameters.AddWithValue("@number", NumTxt.Text);
                 cmd.Parameters.AddWithValue("@email", EmailTxt.Text);
                 cmd.Parameters.AddWithValue("@password", PassText.Text);
-                cmd.Parameters.AddWithValue("@InsertedID", SqlDbType.Int);
+                cmd.Parameters.AddWithValue("@InsertedID", id = (int)SqlDbType.Int);
                 cn.Open();
                 cmd.ExecuteNonQuery();
                 cn.Close();                
-                Session["logged_in"] = "1";
+                Session["logged_in"] = "1";                
+                Session["id"] = SqlDbType.Int;
                 Response.Redirect("~/User/Home.aspx");
             }
             catch (Exception ex)

@@ -11,14 +11,14 @@
         <h1 id="header" class="text-center mt-5"> Book Finder</h1> <br />
         <div class="row">
           <div id="input" class="input-group mx-auto col-lg-6 col-md-8 col-sm-12">
-            <input id="search-box" type=" text" class="form-control" placeholder="Search Books!...">
+            <input style="width:20px; height:40px;" id="search-box" type=" text" class="form-control" placeholder="Search for a book name">
             <button id="search" class="btn btn-primary" onclick="">Search</button>
         </div>
         </div>
       </div>
       <div class="book-list" >
           <br /><hr />
-        <h2 class="text-center">Search Result</h2>
+        <h2 class="text-center">Search Result</h2><hr />
         <div id="list-output" class="">
           <div class="row">            
           </div>

@@ -21,14 +21,16 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 	<div>
+		<center>
 		<br /><br /><br /><br /><br />
 		<p></p>
 		<input type="text" name="Word" placeholder="Enter Word"/>
 		<button >Search</button>
 		<br /><hr />
 		<br />
-		<p id="SearchedFor">SearchedFor</p>
+		<p id="SearchedFor">Searched For</p>
 		<p id="Results"></p>
 		<p id="Date"></p>
+		</center>
 	</div>
 </asp:Content>

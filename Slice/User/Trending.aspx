@@ -1,24 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/User/MasterPage.Master" AutoEventWireup="true" CodeBehind="Trending.aspx.cs" Inherits="Slice.User.Trending" %>	
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">    		
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="../Scripts/Trending.js" />
-	<script>
-	let i=0;
-	$(document).ready(function() {			
-		$.ajax({
-			url: "https://api.itbook.store/1.0/new",
-			type: 'GET',
-			success: function(res) {
-				for (i=0; i<=res.total; i++){	
-					console.log(res);
-					const img = document.createElement("image");
-					img.setAttribute("class", "BookDiv");
-					img.src = res.books[i].image;					
-					document.getElementById("BookDiv").appendChild(img);																					
-				}				
-		}
-	});});
-	</script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">			
     <style>        
         .BookCard {
             background-color: rgba(0,0,0,.1);
@@ -36,73 +18,34 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">	
-<center>
-<br><hr><br><br />
-    <p>Categories</p> <br>
-	<div class="dropdown">
-	  <button class="btn btn-secondary btn-lg dropdown-toggle" type="button"  data-toggle="dropdown">
-		Select Category
-	  </button>
-	  <div class="dropdown-menu">
-		<a class="dropdown-item" href="#">Technology</a>
-		<a class="dropdown-item" href="#">Medical</a>
-		<a class="dropdown-item" href="#">Health</a>
-		<a class="dropdown-item" href="#">Stock</a>
-	  </div>
-	</div>
- 
-<br><br><hr>	
+    <br /><br /><br /><br /><br />
+    <div class="container">
+      <div id="title" class="center"><br />
+        <h1 id="header" class="text-center mt-5"> Book Finder</h1> <br />
+        <div class="row">
+          <div id="input" class="input-group mx-auto col-lg-6 col-md-8 col-sm-12">
+            <input style="width:20px; height:40px;" id="search-box" type=" text" class="form-control" placeholder="Search for a book name">
+            <button id="search" class="btn btn-primary" onclick="">Search</button>
+        </div>
+        </div>
+      </div>
+      <div class="book-list" >
+          <br /><hr />
+        <h2 class="text-center">Search Result</h2><hr />
+        <div id="list-output" class="">
+          <div class="row"> 		  
+          </div>
 
-	<div id="BookDiv"></div>
-		
-    <div class="BookCard" >
-    <p class="BookName">1)The Bible</p><br /><hr />        
-        <button>star</button>
-        <button>Download</button>
-        <button>Read</button> <br /> <br /> 
+        </div>
+      </div>
     </div>
-    <div class="BookCard" >
-    <p class="BookName">2)The Quran</p><br /><hr />        
-        <button>star</button>
-        <button>Download</button>
-        <button>Read</button> <br /><br />
-    </div> 
-    <div class="BookCard" >
-    <p class="BookName">3)The Lord of the Rings</p><br /><hr />
-        <button>star</button>
-        <button>Download</button> 
-        <button>Read</button> <br /><br />
-    </div>
-    <div class="BookCard" >
-    <p class="BookName">4)Harry Potter</p><br /><hr />
-        <button>star</button>
-        <button>Download</button>
-        <button>Read</button> <br /><br />
-    </div>
-    <div class="BookCard" >
-    <p class="BookName">1)The Bible</p><br /><hr />
-        <button>star</button>
-        <button>Download</button>
-        <button>Read</button> <br /><br /><hr />
-    </div>
-    <div class="BookCard" >
-    <p class="BookName">1)The Bible</p><br /><hr />
-        <button>star</button>
-        <button>Download</button>
-        <button>Read</button> <br /><br />
-    </div>
-    <div class="BookCard" >
-    <p class="BookName">1)The Bible</p><br /><hr />
-        <button>star</button>
-        <button>Download</button>
-        <button>Read</button> <br /><br />
-    </div>
-    <div class="BookCard" >
-    <p class="BookName">1)The Bible</p><br /><hr />
-        <button><span class="material-icons-outlined">star</span></button>
-        <button>Download</button>
-        <button>Read</button> <br /><br />
-    </div>
-    </center>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <link rel="stylesheet" href="../Content/SearchStyle.css">
+    <script src="../Scripts/index.js"></script>  
 </asp:Content>
    

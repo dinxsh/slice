@@ -47,25 +47,24 @@
         <div class="carousel-item active">
             <img class="d-block w-100" src="../images/Slice_Temp1.png" alt="First slide" style="max-height:100vh;">
             <div class="carousel-caption d-none d-md-block">
-                <center>
-                <h2>A</h2>
+                <center>                
                 <a href="Search.aspx" style="margin-bottom:40px;font-size:20px;" type="button" class="btn btn-info">View Page</a>                
                 </center>
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="../images/Slice_Temp3.png" alt="Second slide"  style="max-height:100vh;">                        
+            <img class="d-block w-100" src="../images/Slice_Temp2.png" alt="Second slide"  style="max-height:100vh;">                        
             <div class="carousel-caption d-none d-md-block">
                 <center>
-                <button style="margin-bottom:40px;font-size:20px;" type="button" class="btn btn-info">View Page</button>                
+                <a href="Trending.aspx" style="margin-bottom:40px;font-size:20px;" type="button" class="btn btn-info">View Page</a>                
                 </center>
             </div>
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="../images/Book-Img3.jpg" alt="Third slide" style="max-height:100vh;">
+            <img class="d-block w-100" src="../images/Slice_Temp3.png" alt="Third slide" style="max-height:100vh;">
             <div class="carousel-caption d-none d-md-block">
                 <center>
-                <button style="margin-bottom:40px;font-size:20px;" type="button" class="btn btn-info">View Page</button>                   
+                <a href="BookSuggest.aspx" style="margin-bottom:40px;font-size:20px;" type="button" class="btn btn-info">View Page</a>                   
                 </center>
             </div>
         </div>

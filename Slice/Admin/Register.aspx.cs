@@ -18,7 +18,7 @@ namespace Slice.Admin
 
         protected void RegisterFunc(object sender, EventArgs e)
         {
-            string str = "";
+            string str = "";     
             try
             {
                 str = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Mr\\source\\repos\\Slice\\Slice\\App_Data\\MainData.mdf;Integrated Security=True";

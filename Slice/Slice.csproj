@@ -145,6 +145,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="User\AudioBook.aspx.cs">
+      <DependentUpon>AudioBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\AudioBook.aspx.designer.cs">
+      <DependentUpon>AudioBook.aspx</DependentUpon>
+    </Compile>
     <Compile Include="User\Dictionary.aspx.cs">
       <DependentUpon>Dictionary.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -249,6 +256,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\ScrollToTop.css" />
+    <Content Include="User\AudioBook.aspx" />
     <Content Include="User\Dictionary.aspx" />
     <Content Include="User\Home.aspx" />
     <Content Include="Scripts\bootstrap.js" />
