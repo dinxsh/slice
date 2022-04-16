@@ -83,7 +83,7 @@
 	<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
 	<br />	
     <!-- footer stuff -->		
-	<button style="position:fixed;right:6px;">Add</button>	
+	
 	<footer id="footer-2-cols" class="site-footer">
         <div id="footer-container">
             <div id="footer-grid">
@@ -120,7 +120,7 @@
                     </div>
                 </div>
                 <div id="copyright-text">
-                    &copy; Slice Inc. 2022. All rights reserved | Developed By Dinesh Talwadker
+                    &copy; Slice Inc. 2022. All rights reserved | Developed By Dinesh Talwadker 
                 </div>
                 <div id="social-buttons">
                     <img href="#a" src="https://img.icons8.com/ios-filled/25/999999/facebook--v1.png"/><img src="https://img.icons8.com/ios-filled/25/999999/telegram-app.png"/><img src="https://img.icons8.com/ios-filled/25/999999/discord--v1.png"/><img src="https://img.icons8.com/ios-filled/25/999999/instagram--v1.png"/>

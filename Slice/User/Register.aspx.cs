@@ -16,12 +16,10 @@ namespace Slice.User
         }
 
         protected void RegisterFunc(object sender, EventArgs e)
-            {
-            int id = 0;
+        {            
             try
-            {
-                String str;
-                str = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Mr\\source\\repos\\Slice\\Slice\\App_Data\\MainData.mdf;Integrated Security=True";
+            {                
+                String str = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Mr\\source\\repos\\Slice\\Slice\\App_Data\\MainData.mdf;Integrated Security=True";
                 SqlConnection cn = new SqlConnection(str);
                 SqlCommand cmd = new SqlCommand("CustSP", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
@@ -31,7 +29,7 @@ namespace Slice.User
                 cmd.Parameters.AddWithValue("@number", NumTxt.Text);
                 cmd.Parameters.AddWithValue("@email", EmailTxt.Text);
                 cmd.Parameters.AddWithValue("@password", PassText.Text);
-                cmd.Parameters.AddWithValue("@InsertedID", id = (int)SqlDbType.Int);
+                cmd.Parameters.AddWithValue("@InsertedID", SqlDbType.Int);                
                 cn.Open();
                 cmd.ExecuteNonQuery();
                 cn.Close();                

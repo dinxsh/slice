@@ -10,8 +10,7 @@
 			$.ajax({
 				url: "https://api.itbook.store/1.0/books/" + $('#input_txt').val(),
 				type: 'GET',
-				success: function(res) {
-					console.log(res);											
+				success: function(res) {					
 					const img = document.createElement("img");
 					img.setAttribute("class", "ParaElems");
 					img.setAttribute("href",  res.image);
