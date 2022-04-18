@@ -38,31 +38,40 @@ Google Books API used in this page.
 
 <br>
 
-3) Blog
+3) Blog 📹
 <hr>
 
-Page to add blog :)
+Page to add blog :) <br>
 
 ![Screenshot 2022-04-18 135534](https://user-images.githubusercontent.com/90450035/163780191-47927f58-00b2-4e64-bb9f-c513e1c5c7ab.png)
 
 <br>
-Page to view Blog :)
+Page to view Blog :) <br>
 
 ![Screenshot 2022-04-18 135254](https://user-images.githubusercontent.com/90450035/163779849-ab62aec8-759d-4c76-8d9a-b97dbd43c0b3.png)
 
 <hr>
 <br>
-4) Dictionary 
+4) Dictionary 📘 <hr> 
 
 A Dictionary for uninterrupted reading 📔 <br>
 <br>
 ![Screenshot 2022-04-18 140032](https://user-images.githubusercontent.com/90450035/163780993-eff302d4-1ffb-4849-be81-b5ed7f7fe439.png)
 
 <br>
-5) ISBN Finder
+5) ISBN Finder 🔍📙<hr>
 <br>
-![Screenshot 2022-04-18 140752](https://user-images.githubusercontent.com/90450035/163781879-17d58bb5-3184-4ac2-bdbe-606f3d9f3b66.png)
 
-A Page to find any book by ISBN
 
+![Screenshot 2022-04-18 140752](https://user-images.githubusercontent.com/90450035/163782162-4dab3dae-ee01-4b2b-a9ed-46b11f35353b.png)
+
+
+<br>
+A Page to find any book by ISBN 📗
+
+<hr>
+
+Thanks for Reading :))
+<br>
+Appreciate if you star this repo ✨
 
